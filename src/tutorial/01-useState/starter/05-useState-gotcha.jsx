@@ -4,11 +4,12 @@ const UseStateGotcha = () => {
   const [value, setValue] = useState(0)
 
   const handleClick = () =>{
-    setValue((currentstate)=>{
-      const newState = currentstate + 1;
-      return newState;
-      // console.log(currentstate);
-    });
+    setTimeout(()=>{
+      console.log('clicked the button');
+      setValue((currentState)=>{
+        return currentState + 1;
+      });
+    }, 3000)
   }
 
   return (
