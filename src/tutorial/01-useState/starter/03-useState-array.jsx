@@ -1,7 +1,7 @@
 import { data } from "../../../data";
 
 import React, {useState} from "react";
-const UseStateArray = () => {
+const UseStateArray = () => { 
   const [people, setPeople] = React.useState(data);
 
   return (
