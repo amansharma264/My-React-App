@@ -1,10 +1,10 @@
-import ShortCircuitOverview from './tutorial/03-conditional-rendering/starter/04-short-circuit-overview'
+import ShortCircuitExamples from './tutorial/03-conditional-rendering/starter/05-short-circuit-examples'
 import Final from './tutorial/01-useState/final/03-useState-array';
 
 function App() {
   return (
     <div className='container'>
-      <ShortCircuitOverview />
+      <ShortCircuitExamples />
       
     </div>
   )
