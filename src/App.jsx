@@ -1,12 +1,12 @@
-import CleanupFunction from './tutorial/02-useEffect/starter/05-cleanup-function'
-import Final from './tutorial/01-useState/final/03-useState-array';
-
+import List from "./tutorial/05-leverage-javascript/starter/List";
 function App() {
   return (
     <div className='container'>
-      <CleanupFunction />
-      
+      <div>
+        <h2>Leverage Javascript</h2>
+        <List/>
+      </div>
     </div>
-  )
+  );
 }
 export default App
