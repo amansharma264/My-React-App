@@ -1,11 +1,11 @@
-import ControlledInputs from "./tutorial/06-forms/starter/01-controlled-inputs"
+import UserChallenge from "./tutorial/06-forms/starter/02-user-challenge"
 
 import React from 'react'
 
 const App = () => {
   return (
     <div className="container">
-      <ControlledInputs />
+      <UserChallenge />
     </div>
   )
 }
