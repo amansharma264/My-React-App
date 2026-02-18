@@ -1,12 +1,13 @@
-import List from "./tutorial/05-leverage-javascript/starter/List";
-function App() {
+import ControlledInputs from "./tutorial/06-forms/starter/01-controlled-inputs"
+
+import React from 'react'
+
+const App = () => {
   return (
-    <div className='container'>
-      <div>
-        <h2>Leverage Javascript</h2>
-        <List/>
-      </div>
+    <div className="container">
+      <ControlledInputs />
     </div>
-  );
+  )
 }
+
 export default App
