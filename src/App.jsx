@@ -1,13 +1,11 @@
-import FetchData from "./tutorial/08-custom-hooks/starter/02-fetch-data"
+import Navbar from './tutorial/09-context-api/starter/Navbar'
 
 import React from 'react'
 
 const App = () => {
-  return (
-    <div className="container">
-      <FetchData />
-    </div>
-  )
+  return <>
+  <Navbar />
+  </>
 }
 
 export default App
