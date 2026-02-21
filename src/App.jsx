@@ -1,11 +1,11 @@
-import UncontrolledInputs from "./tutorial/06-forms/starter/05-form-data"
+import UseRefBasics from "./tutorial/07-useRef/starter/01-useRef-basics"
 
 import React from 'react'
 
 const App = () => {
   return (
     <div className="container">
-      <UncontrolledInputs />
+      <UseRefBasics />
     </div>
   )
 }
