@@ -1,11 +1,11 @@
-import ToggleExample from "./tutorial/08-custom-hooks/starter/01-toggle"
+import FetchData from "./tutorial/08-custom-hooks/starter/02-fetch-data"
 
 import React from 'react'
 
 const App = () => {
   return (
     <div className="container">
-      <ToggleExample />
+      <FetchData />
     </div>
   )
 }
