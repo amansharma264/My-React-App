@@ -1,10 +1,10 @@
-import ReducerBasics from './tutorial/10-useReducer/starter/01-useReducer'
+import LowerState from './tutorial/11-performance/starter/01-lower-state'
 
 import React from 'react'
 
 const App = () => {
   return <>
-  <ReducerBasics />
+  <LowerState />
   </>
 }
 
