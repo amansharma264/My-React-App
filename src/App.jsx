@@ -1,10 +1,10 @@
-import LowerStateChallenge from './tutorial/11-performance/starter/02-lower-state-challenge'
+import LowerState from './tutorial/11-performance/starter/03-hooks'
 
 import React from 'react'
 
 const App = () => {
   return <>
-  <LowerStateChallenge />
+  <LowerState />
   </>
 }
 
