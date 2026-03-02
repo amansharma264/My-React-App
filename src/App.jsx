@@ -1,10 +1,10 @@
-import FetchData from './tutorial/02-useEffect/starter/04-fetch-data'
+import LowerState from './tutorial/11-performance/starter/03-hooks'
 
 import React from 'react'
 
 const App = () => {
   return <>
-  <FetchData />
+  <LowerState />
   </>
 }
 
